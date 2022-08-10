@@ -1,0 +1,21 @@
+﻿  SpeechManager.cpp
+C:\编程\演讲比赛系统\SpeechManager.cpp(271,36): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\numeric(34,26): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\numeric(41): message : 查看对正在编译的函数 模板 实例化“_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(const _InIt,const _InIt,_Ty,_Fn)”的引用
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<double>>>,
+              _Fn=std::plus<void>
+          ]
+C:\编程\演讲比赛系统\SpeechManager.cpp(159): message : 查看对正在编译的函数 模板 实例化“_Ty std::accumulate<std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<double>>>,int>(const _InIt,const _InIt,_Ty)”的引用
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<double>>>
+          ]
+  演讲比赛系统.vcxproj -> C:\编程\演讲比赛系统\x64\Debug\演讲比赛系统.exe
